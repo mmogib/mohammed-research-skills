@@ -4,11 +4,13 @@ Custom Claude Code skills for optimization algorithm research.
 
 ## Skills
 
-| Skill | Description |
-|---|---|
-| `optimization-research-workflow` | End-to-end workflow for optimization research: theory, Julia implementation, parameter tuning, benchmarking, and paper writing |
-| `math-research-writer` | Writing rigorous, publication-ready mathematics papers with theorem/proof structure, notation consistency, and LaTeX formatting |
-| `title-abstract` | Drafting and reviewing titles and abstracts for academic papers in computational and applied mathematics |
+| Skill | Slash Command | Description |
+|---|---|---|
+| `optimization-research-workflow` | `/optimization-research-workflow` | End-to-end workflow for optimization research: theory, Julia implementation, parameter tuning, benchmarking, and paper writing |
+| `math-research-writer` | `/math-research-writer` | Writing rigorous, publication-ready mathematics papers with theorem/proof structure, notation consistency, and LaTeX formatting |
+| `title-abstract` | `/title-abstract` | Drafting and reviewing titles and abstracts for academic papers in computational and applied mathematics |
+| `init-project` | `/init-project` | Interactive scaffolding for new research projects: directory structure, CLAUDE.md files, Julia project setup (Style A or B), LaTeX template |
+| `jcode-script` | `/jcode-script` | Experiment script generator with consistent patterns: ARGS parsing, CSV I/O, resume, TeeIO logging, progress bars, and more |
 
 ## Setup
 
@@ -22,4 +24,4 @@ Claude Code discovers skills automatically by searching `~/.claude/skills/` recu
 
 ## Related
 
-- **Project template:** `D:\Dropbox\Research\Templates\optimization-research-template\` — Julia project skeleton with algorithm stubs, benchmark infrastructure, experiment scripts, CS/DWT application module, and LaTeX paper template.
+- **Research toolkit:** [mmogib/research-toolkit](https://github.com/mmogib/research-toolkit) — Guides, templates, and conventions referenced by these skills. Clone it and point your project's `CLAUDE.md` to it.
