@@ -11,6 +11,7 @@ Custom Claude Code skills for optimization algorithm research.
 | `title-abstract` | `/title-abstract` | Drafting and reviewing titles and abstracts for academic papers in computational and applied mathematics |
 | `init-project` | `/init-project` | Interactive scaffolding for new research projects: directory structure, CLAUDE.md files, Julia project setup (Style A or B), LaTeX template |
 | `jcode-script` | `/jcode-script` | Experiment script generator with consistent patterns: ARGS parsing, CSV I/O, resume, TeeIO logging, progress bars, and more |
+| `review-paper` | `/review-paper` | Paper review & polish checklist: 13-item universal checklist, project-specific items, task distribution, automated style/notation/bib checks |
 
 ## Setup
 
