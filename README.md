@@ -12,6 +12,7 @@ Custom Claude Code skills for optimization algorithm research.
 | `init-project` | `/init-project` | Interactive scaffolding for new research projects: directory structure, CLAUDE.md files, Julia project setup (Style A or B), LaTeX template |
 | `jcode-script` | `/jcode-script` | Experiment script generator with consistent patterns: ARGS parsing, CSV I/O, resume, TeeIO logging, progress bars, and more |
 | `review-paper` | `/review-paper` | Paper review & polish checklist: 13-item universal checklist, project-specific items, task distribution, automated style/notation/bib checks |
+| `suggest-journals` | `/suggest-journals` | Find suitable Q1–Q2 journals for publication: Scimago search, indexing/publisher/access filters, response time data |
 
 ## Setup
 
